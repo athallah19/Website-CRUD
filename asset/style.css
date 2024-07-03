@@ -1,0 +1,393 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #ebecf0;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+/* HEADER */
+
+.hdr-box {
+    width: 100%;
+
+    background-color: #3876BF;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.hdr-content {
+    width: 100%;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.hdr-content2 {
+   width: 1100px;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   gap: 10px;
+}
+
+.hdr-content h1 {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.bi-house-fill {
+    font-size: 20px;
+    color: white;
+}
+
+
+
+/* breadcrumbs */
+
+.breadcrumbs {
+    width: 1100px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.judul {
+    margin-right: auto;
+}
+
+.judul h1 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #252525;
+}
+
+/* .bi-boxes, .bi-people, .bi-cart3, .bi-list-check {
+    font-size: 28px;
+    margin-right: 10px;
+    color: #252525;
+} */
+
+.link {
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+}
+
+.link a {
+    font-size: 16px;
+    color: #252525;
+    font-weight: 400;
+}
+
+.bi-house-door-fill {
+    font-size: 16px;
+    color: #252525;
+}
+
+
+
+/* TAMBAH DATA */
+
+.tambah-data {
+    width: 1040px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+
+    gap: 20px;
+
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.btn-tambah-data {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+
+    padding: 10px 13px;
+    border-radius: 13px;
+    background-color: #3876BF;
+
+    transition: 0.2s;
+}
+
+.btn-tambah-data:hover {
+    background-color: #2275d4;
+}
+
+.kosong {
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.bi-plus-circle {
+    font-size: 20px;
+    margin-right: 8px
+}
+
+
+
+/* TABLE */
+
+.table-wrap {
+    width: 1040px;
+    margin: auto;
+
+    padding: 30px; 
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+table,
+td,
+th {
+    border: 1px solid #d5d5d8;
+    color: #252525;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+th {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+
+    background-color: #fcfdff;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+tr {
+    transition: 0.2s;
+}
+
+tr:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+.id-pelanggan {
+    width: 15%;
+}
+
+.nama-pelanggan {
+    width: 25%;
+}
+
+.aksi, .id {
+    width: 12%;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+}
+
+.hapus {
+    padding: 8px 12px;
+    border-radius: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: #FA4659;
+    transition: 0.2s;
+}
+
+.hapus:hover {
+    background-color: #f82b40;
+}
+
+.bi-trash3-fill {
+    color: white;
+    font-size: 16px;
+}
+
+.edit {
+    padding: 8px 12px;
+    border-radius: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: #259469;
+    transition: 0.2s;
+}
+
+.edit:hover {
+    background-color: rgb(34, 165, 115);
+}
+
+.bi-pencil-fill {
+    color: white;
+    font-size: 16px;
+}
+
+
+/* FOOTER */
+
+.ftr-box {
+    
+    width: 100%;
+    margin-top: 70px;
+
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.ftr-content {
+    width: 100%;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.ftr-content2 {
+   width: 1100px;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   gap: 10px;
+}
+
+.ftr-content2 p {
+    color: #252525;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ftr-content2 a {
+    color: #FA4659;
+    font-weight: 400;
+}
+
+
+
+/* Tambah edit data */
+
+input.number::-webkit-outer-spin-button,
+input.number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form {
+    width: 500px;
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: auto;
+}
+
+.form input.control::placeholder {
+    color: #f7f7f7;
+    font-weight: 400;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.label-2 {
+    margin-top: 13px;
+}
+
+.control {
+    border: 0;
+    outline: none;
+    width: 424px;
+    height: 56px;
+    padding: 0 20px 0 20px;
+    border-radius: 15px;
+    background: #f5f4f4;
+    color: #252525;
+    font-family: inherit;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.control-textarea {
+    border: 0;
+    outline: none;
+    width: 424px;
+    height: 112px;
+    padding: 20px 20px;
+    border-radius: 15px;
+    background: #f5f4f4;
+    color: #252525;
+    font-family: inherit;
+    font-size: 16px;
+    transition: 0.4s;
+    resize: none;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.button-control {
+    cursor: pointer;
+    width: 50%;
+    padding: 10px 13px;
+    background: #3876BF;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.2s;
+
+    margin-top: 15px;
+}
+
+.button-control:hover {
+    background: #2275d4;
+}

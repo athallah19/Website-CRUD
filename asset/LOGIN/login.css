@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    font-family: "Poppins";
+    background-color: #ebecf0;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.control {
+    border: 0;
+    outline: none;
+    width: 100%;
+    height: 56px;
+    padding: 0 56px 0 16px;
+    border-radius: 8px;
+    background: #ebecf0;
+    color: #252525;
+    font-family: inherit;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.control:focus {
+    border-color: rgb(0 0 0 / 30%);
+}
+
+.card-login {
+    width: 400px;
+    padding: 10px 30px 20px;
+    border-radius: 1.25rem;
+    background: #ffff;
+    text-align: center;
+}
+
+.card-login > h2 {
+    color: #252525;
+}
+
+.card-login>img {
+    width: 280px;
+}
+
+.form {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 20px;
+}
+
+.form input.control::placeholder {
+    color: #a2a0a9;
+    font-weight: 400;
+}
+
+.button-control {
+    cursor: pointer;
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    background: #3876BF;
+    color: #f0f0f0;
+    border: 0;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+}
+
+.button-control:hover {
+    background: #2275d4;
+}
+
+.password {
+    position: relative;
+}
+
+.toggle {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    translate: 0 -50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("show.svg");
+    background-size: 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.toggle.showing {
+    background-image: url("hide.svg");
+}
+
+.kembali a {
+    color: #252525;
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.kembali p a:hover {
+    text-decoration: underline;
+}
